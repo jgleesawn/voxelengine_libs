@@ -1,0 +1,233 @@
+The system is: Linux - 3.8.13-tinycore - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/tc/Downloads/glm/CMakeFiles/2.8.12/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/tc/Downloads/glm/CMakeFiles/2.8.12/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/tc/Downloads/glm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/bin/make "cmTryCompileExec4037961786/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec4037961786.dir/build.make CMakeFiles/cmTryCompileExec4037961786.dir/build
+make[1]: Entering directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp'
+/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_progress_report /home/tc/Downloads/glm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4037961786.dir/testCCompiler.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec4037961786.dir/testCCompiler.c.o   -c /home/tc/Downloads/glm/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4037961786
+/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4037961786.dir/link.txt --verbose=1
+/usr/local/bin/cc       CMakeFiles/cmTryCompileExec4037961786.dir/testCCompiler.c.o  -o cmTryCompileExec4037961786 -rdynamic 
+make[1]: Leaving directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/tc/Downloads/glm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/bin/make "cmTryCompileExec3272297287/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3272297287.dir/build.make CMakeFiles/cmTryCompileExec3272297287.dir/build
+make[1]: Entering directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp'
+/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_progress_report /home/tc/Downloads/glm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o   -c /tmp/tcloop/cmake/usr/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3272297287
+/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3272297287.dir/link.txt --verbose=1
+/usr/local/bin/cc     -v CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3272297287 -rdynamic  
+Reading specs from /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/specs
+COLLECT_GCC=/usr/local/bin/cc
+COLLECT_LTO_WRAPPER=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/lto-wrapper
+Target: i486-pc-linux-gnu
+Configured with: ../gcc-4.7.2/configure --prefix=/usr/local --libexecdir=/usr/local/lib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-c99 --enable-long-long --enable-clocale=gnu --enable-languages=c,c++ --disable-multilib --disable-libstdcxx-pch --enable-cloog-backend=isl --with-system-zlib --enable-frame-pointer --disable-bootstrap --disable-cloog-version-check --enable-lto --with-mpc=/usr/local --with-mpfr=/usr/local --with-gmp=/usr/local--with-ppl=/usr/local --with-cloog=/usr/local --enable-cloog-backend=isl --disable-cloog-version-check
+Thread model: posix
+gcc version 4.7.2 (GCC) 
+COMPILER_PATH=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3272297287' '-rdynamic' '-mtune=i486' '-march=i486'
+ /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/collect2 --eh-frame-hdr -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec3272297287 /usr/lib/crt1.o /usr/lib/crti.o /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtbegin.o -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2 -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../.. CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtend.o /usr/lib/crtn.o
+make[1]: Leaving directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tc/Downloads/glm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/local/bin/make "cmTryCompileExec3272297287/fast"]
+  ignore line: [/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3272297287.dir/build.make CMakeFiles/cmTryCompileExec3272297287.dir/build]
+  ignore line: [make[1]: Entering directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp']
+  ignore line: [/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_progress_report /home/tc/Downloads/glm/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/cc    -o CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o   -c /tmp/tcloop/cmake/usr/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3272297287]
+  ignore line: [/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3272297287.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/cc     -v CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3272297287 -rdynamic  ]
+  ignore line: [Reading specs from /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/specs]
+  ignore line: [COLLECT_GCC=/usr/local/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/lto-wrapper]
+  ignore line: [Target: i486-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.7.2/configure --prefix=/usr/local --libexecdir=/usr/local/lib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-c99 --enable-long-long --enable-clocale=gnu --enable-languages=c,c++ --disable-multilib --disable-libstdcxx-pch --enable-cloog-backend=isl --with-system-zlib --enable-frame-pointer --disable-bootstrap --disable-cloog-version-check --enable-lto --with-mpc=/usr/local --with-mpfr=/usr/local --with-gmp=/usr/local--with-ppl=/usr/local --with-cloog=/usr/local --enable-cloog-backend=isl --disable-cloog-version-check]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3272297287' '-rdynamic' '-mtune=i486' '-march=i486']
+  link line: [ /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/collect2 --eh-frame-hdr -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec3272297287 /usr/lib/crt1.o /usr/lib/crti.o /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtbegin.o -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2 -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../.. CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtend.o /usr/lib/crtn.o]
+    arg [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3272297287] ==> ignore
+    arg [/usr/lib/crt1.o] ==> ignore
+    arg [/usr/lib/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2] ==> dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2]
+    arg [-L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib] ==> dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib]
+    arg [-L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../..] ==> dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec3272297287.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtend.o] ==> ignore
+    arg [/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2] ==> [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2]
+  collapse library dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib] ==> [/usr/local/i486-pc-linux-gnu/lib]
+  collapse library dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../..] ==> [/usr/local/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2;/usr/local/i486-pc-linux-gnu/lib;/usr/local/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/tc/Downloads/glm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/bin/make "cmTryCompileExec3364605346/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec3364605346.dir/build.make CMakeFiles/cmTryCompileExec3364605346.dir/build
+make[1]: Entering directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp'
+/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_progress_report /home/tc/Downloads/glm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3364605346.dir/testCXXCompiler.cxx.o
+/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec3364605346.dir/testCXXCompiler.cxx.o -c /home/tc/Downloads/glm/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3364605346
+/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3364605346.dir/link.txt --verbose=1
+/usr/local/bin/c++        CMakeFiles/cmTryCompileExec3364605346.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3364605346 -rdynamic 
+make[1]: Leaving directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/tc/Downloads/glm/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/local/bin/make "cmTryCompileExec656374217/fast"
+/usr/local/bin/make -f CMakeFiles/cmTryCompileExec656374217.dir/build.make CMakeFiles/cmTryCompileExec656374217.dir/build
+make[1]: Entering directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp'
+/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_progress_report /home/tc/Downloads/glm/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o -c /tmp/tcloop/cmake/usr/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec656374217
+/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec656374217.dir/link.txt --verbose=1
+/usr/local/bin/c++      -v CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec656374217 -rdynamic  
+Reading specs from /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/specs
+COLLECT_GCC=/usr/local/bin/c++
+COLLECT_LTO_WRAPPER=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/lto-wrapper
+Target: i486-pc-linux-gnu
+Configured with: ../gcc-4.7.2/configure --prefix=/usr/local --libexecdir=/usr/local/lib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-c99 --enable-long-long --enable-clocale=gnu --enable-languages=c,c++ --disable-multilib --disable-libstdcxx-pch --enable-cloog-backend=isl --with-system-zlib --enable-frame-pointer --disable-bootstrap --disable-cloog-version-check --enable-lto --with-mpc=/usr/local --with-mpfr=/usr/local --with-gmp=/usr/local--with-ppl=/usr/local --with-cloog=/usr/local --enable-cloog-backend=isl --disable-cloog-version-check
+Thread model: posix
+gcc version 4.7.2 (GCC) 
+COMPILER_PATH=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/bin/
+LIBRARY_PATH=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec656374217' '-rdynamic' '-shared-libgcc' '-mtune=i486' '-march=i486'
+ /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/collect2 --eh-frame-hdr -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec656374217 /usr/lib/crt1.o /usr/lib/crti.o /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtbegin.o -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2 -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../.. CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtend.o /usr/lib/crtn.o
+make[1]: Leaving directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tc/Downloads/glm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/local/bin/make "cmTryCompileExec656374217/fast"]
+  ignore line: [/usr/local/bin/make -f CMakeFiles/cmTryCompileExec656374217.dir/build.make CMakeFiles/cmTryCompileExec656374217.dir/build]
+  ignore line: [make[1]: Entering directory `/home/tc/Downloads/glm/CMakeFiles/CMakeTmp']
+  ignore line: [/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_progress_report /home/tc/Downloads/glm/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/c++     -o CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o -c /tmp/tcloop/cmake/usr/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec656374217]
+  ignore line: [/tmp/tcloop/cmake/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec656374217.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/c++      -v CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec656374217 -rdynamic  ]
+  ignore line: [Reading specs from /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/specs]
+  ignore line: [COLLECT_GCC=/usr/local/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/lto-wrapper]
+  ignore line: [Target: i486-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-4.7.2/configure --prefix=/usr/local --libexecdir=/usr/local/lib --enable-shared --enable-threads=posix --enable-__cxa_atexit --enable-c99 --enable-long-long --enable-clocale=gnu --enable-languages=c,c++ --disable-multilib --disable-libstdcxx-pch --enable-cloog-backend=isl --with-system-zlib --enable-frame-pointer --disable-bootstrap --disable-cloog-version-check --enable-lto --with-mpc=/usr/local --with-mpfr=/usr/local --with-gmp=/usr/local--with-ppl=/usr/local --with-cloog=/usr/local --enable-cloog-backend=isl --disable-cloog-version-check]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib/:/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec656374217' '-rdynamic' '-shared-libgcc' '-mtune=i486' '-march=i486']
+  link line: [ /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/collect2 --eh-frame-hdr -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec656374217 /usr/lib/crt1.o /usr/lib/crti.o /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtbegin.o -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2 -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib -L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../.. CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtend.o /usr/lib/crtn.o]
+    arg [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec656374217] ==> ignore
+    arg [/usr/lib/crt1.o] ==> ignore
+    arg [/usr/lib/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2] ==> dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2]
+    arg [-L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib] ==> dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib]
+    arg [-L/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../..] ==> dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec656374217.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/crtend.o] ==> ignore
+    arg [/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2] ==> [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2]
+  collapse library dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../../../i486-pc-linux-gnu/lib] ==> [/usr/local/i486-pc-linux-gnu/lib]
+  collapse library dir [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2/../../..] ==> [/usr/local/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/local/lib/gcc/i486-pc-linux-gnu/4.7.2;/usr/local/i486-pc-linux-gnu/lib;/usr/local/lib]
+  implicit fwks: []
+
+
