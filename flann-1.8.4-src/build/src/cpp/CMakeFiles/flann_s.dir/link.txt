@@ -1,2 +1,0 @@
-/usr/local/bin/ar cr ../../lib/libflann_s.a  CMakeFiles/flann_s.dir/flann/flann.cpp.o
-/usr/local/bin/ranlib ../../lib/libflann_s.a
